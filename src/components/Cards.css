@@ -1,0 +1,37 @@
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(252, 2, 2, 0.273) !important;
+    transition: all 0.2s linear;
+}
+
+
+.overflow{
+    overflow: hidden;
+    margin: 1px;
+    padding: 20px;
+    
+}
+.card-img-top{
+ transition: all 0.2s ease-in-out;
+ 
+}
+
+.card-img-top:hover{
+    transform: scale(1.9);
+}
+.card-row{
+    flex-direction: column;
+
+}
+.text{
+    font-size: 15px;
+    background-color: #1c1c1c7c;
+    
+    color: #fff;
+    text-align: center;
+}
+.display{
+    text-align: center;
+}
+.botao{
+    margin: 2rem black;
+}
